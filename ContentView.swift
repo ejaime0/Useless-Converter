@@ -104,6 +104,8 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                         .padding()
                         .background(.thinMaterial)
+                        .focused($isFocused)
+
 //                    Picker("input unit", selection: $choosenUnit) {
 //                        ForEach(lengths, id: \.self) {
 //                            Text($0)
